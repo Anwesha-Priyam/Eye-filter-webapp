@@ -1,0 +1,28 @@
+body
+{
+    background-image: url("background.png");
+}
+h3
+{
+    font-size: 29px !important;
+}
+.btn-success:hover
+{
+    background-color: orchid;
+}
+canvas
+{
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from{box-shadow: 1px 14px 20px indianred;}
+    to{box-shadow: 2px 15px 21px palevioletred;}
+}
+.change
+{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #d6d6ff
+}
